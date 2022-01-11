@@ -70,13 +70,13 @@ header .main-wrapper {
     
 }
 
-.main-menu > ul > li {
+.main-menu li {
     display: inline-block;
     
 
 }
 
-.main-menu > ul > li > a {
+.main-menu li > a {
     color: white;
     text-decoration: none;
     font-weight: 400;
@@ -84,11 +84,11 @@ header .main-wrapper {
     margin-right: 15px;
 }
 
-.main-menu > ul > li:last-child > a {
-    margin-right: 0px;
+.main-menu > li:last-child > a {
+    margin-right: 0;
 }
 
-.main-menu > ul > li > a:hover {
+.main-menu > li > a:hover {
     border-bottom: 2px solid rgb(2, 216, 231);
     transition-duration: 0.2s;
     padding-bottom: 4px;
@@ -197,12 +197,6 @@ a.main-board__button-link:hover .icon{
     font-size: 30px;
     color: turquoise;
 }
-
-
-/*.buttons div {
-    font-size: 12px;
-    color: turquoise;
-}*/
 
 .main-board__left-block > div:last-of-type {
     display: flex;
