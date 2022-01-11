@@ -35,6 +35,7 @@ header {
     padding: 0 15px;
     width: 1170px;
 
+
 }
 
 header .main-wrapper {
@@ -42,6 +43,31 @@ header .main-wrapper {
     align-items: center;
     justify-content: space-between;
     height: 100%;
+}
+
+.main-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    text-transform: uppercase;
+}
+
+.main-wrapper h2 span {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.main-wrapper > h2 > span::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    border-bottom: 2px solid black;
+    margin-left: -25px;
+    
+    
 }
 
 .main-menu > ul > li {
@@ -190,4 +216,3 @@ a.main-board__button-link:hover .icon{
     font-size: 14px;
     font-weight: 600;
 }
-
